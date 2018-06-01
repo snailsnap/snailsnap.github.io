@@ -1,29 +1,8 @@
 body{
-    /*margin: 0;*/
+    width: 100%;
     text-align: center;
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
 }
-
-/*.row1,
-.row2 {
-    text-align: center;
-    width: 80%;
-    margin: 0 auto;
-    padding: 2em 0;
-}
-
-.row1 {
-    width: 100%;
-    background-color: lightgray;
-    overflow: hidden;
-}
-
-.row2{
-    line-height: 150%;
-}
-*/
-
-
 
 .grid div:nth-child(even) {
     background-color: #8ae0fe;
