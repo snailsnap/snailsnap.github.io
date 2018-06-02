@@ -57,7 +57,10 @@ img {
 
 .video{
     grid-area: video;
-    margin: 3em;
+}
+
+#demo-bild{
+    width: 100%;
 }
 
 .footer{
