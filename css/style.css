@@ -22,8 +22,11 @@ img {
     grid-template-areas: 
     "title"
     "text1"
+    "bild1"
     "video"
+    "bild2"
     "text2"
+    "bild3"
     "footer";
     grid-gap: 2em;
 }
@@ -39,8 +42,11 @@ img {
         grid-template-areas: 
         ". title ."
         ". text1 ."
+        ". bild1 ."
         ". video ."
+        ". bild2 ."
         ". text2 ."
+        ". bild3 ."
         ". footer .";
     }
 }
@@ -55,8 +61,20 @@ img {
     padding: 2em;
 }
 
+.bild1{
+    grid-area: bild1;
+}
+
 .video{
     grid-area: video;
+}
+
+.bild2{
+    grid-area: bild2;
+}
+
+.bild3{
+    grid-area: bild3;
 }
 
 .demo-bild{
