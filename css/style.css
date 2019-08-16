@@ -10,10 +10,25 @@ body{
 
 .title{
     grid-area: title;
+    display: grid;
+    grid-template-columns: 20% 80%; 
+    grid-template-areas: 
+    "logo slogan";
 }
 
-img {
-    width: 50%;
+.logo{
+    grid-area: logo;
+}
+
+.slogan{
+    grid-area: slogan;
+    margin: auto 0;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.logo img {
+    width: 100%;
 }
 
 .grid {
@@ -22,11 +37,9 @@ img {
     grid-template-areas: 
     "title"
     "text1"
-    "bild1"
     "video"
-    "bild2"
     "text2"
-    "bild3"
+    "collage"
     "footer";
     grid-gap: 2em;
 }
@@ -42,11 +55,9 @@ img {
         grid-template-areas: 
         ". title ."
         ". text1 ."
-        ". bild1 ."
         ". video ."
-        ". bild2 ."
         ". text2 ."
-        ". bild3 ."
+        ". collage ."
         ". footer .";
     }
 }
@@ -61,20 +72,12 @@ img {
     padding: 2em;
 }
 
-.bild1{
-    grid-area: bild1;
-}
-
 .video{
     grid-area: video;
 }
 
-.bild2{
-    grid-area: bild2;
-}
-
-.bild3{
-    grid-area: bild3;
+.collage{
+    grid-area: collage;
 }
 
 .demo-bild{
@@ -98,6 +101,10 @@ img {
 
 .button:hover {
     background-color: #ffffff;
+}
+
+.footer img {
+    width: 100%;
 }
 
 a {
