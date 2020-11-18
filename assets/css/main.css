@@ -2926,6 +2926,10 @@ input, select, textarea {
 			body, input, select, textarea {
 				font-size: 12pt;
 			}
+        
+        iframe {
+            width: 100%;
+        }
 
 	}
 
@@ -3153,5 +3157,9 @@ input, select, textarea {
 					margin: 0;
 					padding: 0;
 				}
+        
+        iframe {
+            width: 100%;
+        }
 
 	}
