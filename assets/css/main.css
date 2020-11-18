@@ -2982,6 +2982,10 @@ input, select, textarea {
 					bottom: auto;
 					position: relative;
 				}
+        
+        iframe {
+            width: 100%;
+        }
 
 	}
 
